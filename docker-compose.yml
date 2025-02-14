@@ -3,31 +3,31 @@ services:
 
   python:
     build:
-      context: .
+      context: ..
       dockerfile: PC2/python/dockerfile
     container_name: contenedor_python
     
   c:
     build:
-      context: .
+      context: ..
       dockerfile: PC2/c/dockerfile
     container_name: contenedor_c
 
   java:
     build:
-      context: .
+      context: ..
       dockerfile: PC2/java/dockerfile
     container_name: contenedor_java
 
   rust:
     build:
-      context: .
+      context: ..
       dockerfile: PC2/rust/dockerfile
     container_name: contenedor_rust
     
   javascript:
     build:
-      context: .
+      context: ..
       dockerfile: PC2/javascript/dockerfile
     container_name: contenedor_javascript
 
